@@ -89,3 +89,7 @@ Follow these steps to get the project running on your local machine.
    spring.datasource.password=your_password
    spring.jpa.hibernate.ddl-auto=update
    ```
+3. Run the backend:
+   ```bash
+   ./mvnw spring-boot:run
+   ```
