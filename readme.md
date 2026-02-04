@@ -93,3 +93,14 @@ Follow these steps to get the project running on your local machine.
    ```bash
    ./mvnw spring-boot:run
    ```
+### 3. Frontend Configuration
+1. Open a new terminal and navigate to the client folder.
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+ 3. Start the React development server:
+   ```bash
+     npm start
+   ```
