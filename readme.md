@@ -37,9 +37,13 @@ Shopifyy is a full-featured, responsive e-commerce platform built with a focus o
 
 ## 📸 Screenshots
 
-| Home Page | Product Details | Cart View |
+| Home Page | All Products Page | Category View |
 |---|---|---|
-| ![Home Page](<landing page.png>) | ![Product Details](<allproducts page.png>) | ![Cart](cartpage.png) |
+| ![Home Page](<landing page.png>) | ![All Product Page](<allproducts page.png>) | ![Category View](category.png) |
+
+| Search View | Product Details | Register Page |
+|---|---|---|
+| ![Search View](searchpage.png) | ![Product Details Page](productdetailspage.png) | ![Register Page](registerpage.png) |
 
 > *Admin Dashboard and Checkout screenshots go here.*
 ---
