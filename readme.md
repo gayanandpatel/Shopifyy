@@ -78,3 +78,14 @@ Follow these steps to get the project running on your local machine.
 2. Create a new database:
    ```sql
    CREATE DATABASE shopifyy_db;
+   ```
+### 2. Backend Configuration
+1. Navigate to src/main/resources/application.properties.
+
+2. Update the MySQL credentials:
+   ```bash
+   spring.datasource.url=jdbc:mysql://localhost:3306/shopifyy_db
+   spring.datasource.username=your_username
+   spring.datasource.password=your_password
+   spring.jpa.hibernate.ddl-auto=update
+   ```
