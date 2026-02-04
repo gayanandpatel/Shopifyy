@@ -100,7 +100,7 @@ Follow these steps to get the project running on your local machine.
    ```bash
    npm install
    ```
- 3. Start the React development server:
+3. Start the React development server:
    ```bash
      npm start
    ```
