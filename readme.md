@@ -53,6 +53,14 @@ Shopifyy is a full-featured, responsive e-commerce platform built with a focus o
 |---|---|---|
 | ![Accout Dashboard](accountdashboard.png) | ![Add/update Address](<add-update-address page.png>) | ![Admin Homepage](admindashboard.png) |
 
+| Add Product Page | Upload Image Page | Admin Product Page |
+|---|---|---|
+| ![Add Product Page](addproductpage.png) | ![Upload Image Page](uploadimagepage.png) | ![Admin Product Page](admin_productpage.png) |
+
+| Add Product Page |
+|---|---|---|
+| ![Add Product Page](update-productpage.png) |
+
 
 
 
