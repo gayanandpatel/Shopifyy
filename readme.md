@@ -104,3 +104,28 @@ Follow these steps to get the project running on your local machine.
    ```bash
      npm start
    ```
+
+---
+
+## 👤 Author
+
+**Gayanand Patel**
+* **GitHub:** [@gayanandpatel](https://github.com/gayanandpatel)
+* **LinkedIn:** [Gayanand Patel](https://www.linkedin.com/in/gayanand-patel/)
+* **Email:** gayanand.patel@gmail.com
+
+> Feel free to reach out if you have any questions about this project or want to collaborate!
+
+---
+
+## ⚖️ License
+
+This project is licensed under the **MIT License**.
+
+Copyright (c) 2026 **Gayanand Patel**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+_See the [LICENSE](LICENSE) file for more details._
