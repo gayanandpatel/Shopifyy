@@ -6,9 +6,9 @@ Shopifyy is a full-featured, responsive e-commerce platform built with a focus o
 
 | Image of e-commerce website architecture diagram |
 |---|
-|![Architecture Diagram](architecture-diagram.png) |
+|![Architecture Diagram](screenshots/architecture-diagram.png) |
 
-
+---
 ## 🚀 Key Features
 
 * **User Authentication:** Secure login and registration using Spring Security and JWT.
