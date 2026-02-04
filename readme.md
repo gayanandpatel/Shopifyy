@@ -83,7 +83,7 @@ Follow these steps to get the project running on your local machine.
 1. Navigate to src/main/resources/application.properties.
 
 2. Update the MySQL credentials:
-   ```bash
+   ```properties
    spring.datasource.url=jdbc:mysql://localhost:3306/shopifyy_db
    spring.datasource.username=your_username
    spring.datasource.password=your_password
