@@ -39,13 +39,12 @@ Shopifyy is a full-featured, responsive e-commerce platform built with a focus o
 
 | Home Page | Product Details | Cart View |
 |---|---|---|
-| ![Home Page](<landing page.png>) | ![Product Details](link-to-your-image.png) | ![Cart](link-to-your-image.png) |
+| ![Home Page](<landing page.png>) | ![Product Details](<allproducts page.png>) | ![Cart](cartpage.png) |
 
 > *Admin Dashboard and Checkout screenshots go here.*
 ---
 
 ## ⚙️ Installation & Setup
-
 Follow these steps to get the project running on your local machine.
 
 ### Prerequisites
