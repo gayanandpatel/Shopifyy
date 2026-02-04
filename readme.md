@@ -39,30 +39,29 @@ Shopifyy is a full-featured, responsive e-commerce platform built with a focus o
 
 | Home Page | All Products Page | Category View |
 |---|---|---|
-| ![Home Page](<landing page.png>) | ![All Product Page](<allproducts page.png>) | ![Category View](category.png) |
+| ![Home Page](<screenshots/landing page.png>) | ![All Product Page](<screenshots/allproducts page.png>) | ![Category View](screenshots/category.png) |
 
 | Search View | Product Details | Register Page |
 |---|---|---|
-| ![Search View](searchpage.png) | ![Product Details Page](productdetailspage.png) | ![Register Page](registerpage.png) |
+| ![Search View](screenshots/searchpage.png) | ![Product Details Page](screenshots/productdetailspage.png) | ![Register Page](screenshots/registerpage.png) |
 
 | Login Page | Cart Page | Checkout Page |
 |---|---|---|
-| ![Login Page](loginpage.png) | ![Cart Page](cartpage-1.png) | ![Checkout Page](checkoutpage.png) |
+| ![Login Page](screenshots/loginpage.png) | ![Cart Page](screenshots/cartpage-1.png) | ![Checkout Page](screenshots/checkoutpage.png) |
 
 | Account Dashboard | Add/Update Address |
 |---|---|
-| ![Accout Dashboard](accountdashboard.png) | ![Add/update Address](<add-update-address page.png>) |
+| ![Account  Dashboard](screenshots/accountdashboard.png) | ![Add/Update Address](<screenshots/add-update-address page.png>) |
 
 > *Admin Dashboard*
 
 | Admin Homepage | Add Product Page | Upload Image Page |
 |---|---|---|
-![Admin Homepage](admindashboard.png) | ![Add Product Page](addproductpage.png) | ![Upload Image Page](uploadimagepage.png) |
+![Admin Homepage](screenshots/admindashboard.png) | ![Add Product Page](screenshots/addproductpage.png) | ![Upload Image Page](screenshots/uploadimagepage.png) |
 
 | Admin Product Page | Update Product Page |
 |---|---|
- ![Admin Product Page](admin_productpage.png) | ![Update Product Page](update-productpage.png) |
-
+ ![Admin Product Page](screenshots/admin_productpage.png) | ![Update Product Page](screenshots/update-productpage.png) |
 ---
 
 ## ⚙️ Installation & Setup
