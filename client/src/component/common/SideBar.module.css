@@ -1,0 +1,162 @@
+.sidebarCard {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  padding: 24px;
+  width: 100%;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow: hidden;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #111;
+}
+
+.filterIcon {
+  color: var(--search-button-color, #c38212);
+  font-size: 0.9rem;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.resetBtn {
+  background: none;
+  border: none;
+  color: #6b7280;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: #f3f4f6;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.resetBtn:hover {
+  background-color: #e5e7eb;
+  color: #374151;
+}
+
+/* Section */
+.section {
+  margin-bottom: 20px;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.sectionTitle {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #374151;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+/* Brand List */
+.brandList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 5px; 
+}
+
+/* Thin Scrollbar */
+.brandList::-webkit-scrollbar {
+  width: 4px;
+}
+.brandList::-webkit-scrollbar-track {
+  background: transparent;
+}
+.brandList::-webkit-scrollbar-thumb {
+  background-color: #e5e7eb;
+  border-radius: 4px;
+}
+
+/* Checkbox Item */
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  padding: 6px 8px;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.checkboxLabel:hover {
+  background-color: #f9fafb;
+}
+
+.hiddenInput {
+  display: none;
+}
+
+/* Visual Checkbox */
+.customCheckbox {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #d1d5db;
+  border-radius: 4px;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.hiddenInput:checked + .customCheckbox {
+  background-color: var(--search-button-color, #c38212);
+  border-color: var(--search-button-color, #c38212);
+}
+
+.checkIcon {
+  color: white;
+  font-size: 10px;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.hiddenInput:checked + .customCheckbox .checkIcon {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.brandName {
+  font-size: 0.95rem;
+  color: #4b5563;
+  font-weight: 500;
+}
+
+.hiddenInput:checked ~ .brandName {
+  color: #111;
+  font-weight: 600;
+}

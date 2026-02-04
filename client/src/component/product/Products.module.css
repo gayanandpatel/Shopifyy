@@ -1,0 +1,79 @@
+.pageContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  background-color: #fcfcfc;
+}
+
+.searchSection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.searchWrapper {
+  width: 100%;
+  max-width: 700px;
+}
+
+.layoutGrid {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.sidebarWrapper {
+  position: sticky;
+  top: 100px; 
+  align-self: start;
+  height: fit-content;
+  z-index: 10;
+}
+
+.productSection {
+  width: 100%;
+}
+
+.resultsCount {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.paginationWrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 60px;
+  background: white;
+  border-radius: 8px;
+  border: 1px dashed #ddd;
+}
+
+.resetBtn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .layoutGrid {
+    grid-template-columns: 1fr;
+  }
+  .sidebarWrapper {
+    position: static;
+    margin-bottom: 30px;
+  }
+}

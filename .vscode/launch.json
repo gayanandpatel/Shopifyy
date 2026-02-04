@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ShopifyyApplication<shopifyy>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.shopifyy.shopifyy.ShopifyyApplication",
+            "projectName": "shopifyy",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
