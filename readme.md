@@ -5,7 +5,7 @@ Shopifyy is a full-featured, responsive e-commerce platform built with a focus o
 
 
 | Image of e-commerce website architecture diagram |
-|...|
+|---|
 |![Architecture Diagram](architecture-diagram.png) |
 
 
